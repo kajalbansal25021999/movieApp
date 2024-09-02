@@ -85,7 +85,6 @@ export default function Search({}) {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(filteredMovies);
   return (
     <View style={{ flex: 1, paddingTop: 40 }}>
       <View

@@ -9,8 +9,6 @@ import React from "react";
 import Movie from "@/components/Movie";
 
 const index = () => {
-  const colorScheme = useColorScheme();
-  console.log(colorScheme);
   return (
     <View style={styles.container}>
       <Movie />

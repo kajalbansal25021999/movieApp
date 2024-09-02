@@ -7,8 +7,6 @@ const StackNavigator = () => {
     (state) => state.onboarding.completed
   );
 
-  console.log("OnboardingScreenOne======", onboardingCompleted);
-
   return (
     <Stack screenOptions={{ headerShown: false }}>
       {!onboardingCompleted ? (

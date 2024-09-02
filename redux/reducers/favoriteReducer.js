@@ -5,7 +5,6 @@ const initialState = {
 const favoriteReducer = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_TO_FAVORITE":
-      console.log(action.payload);
       return {
         ...state,
         favorites: [
